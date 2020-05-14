@@ -1,0 +1,53 @@
+/* General */
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+header{
+  position: relative;
+  top: 75px;
+  margin-left: 33%;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 700;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+}
+
+.fix-nav {
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color: black;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+nav img {
+  height: 36px;
+  position: relative;
+  top: 5px;
+}
+
+button {
+  color: white;
+  background-color: rgb(86, 123, 149);
+  border-radius: 5px;
+  border: 1px solid;
+  height: 32px;
+}
+
+button:hover {
+  background-color: rgb(50, 104, 145);
+}
