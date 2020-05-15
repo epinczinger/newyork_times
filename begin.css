@@ -50,6 +50,7 @@ button {
   border-radius: 5px;
   border: 1px solid;
   height: 32px;
+  font-weight: 700;
 }
 
 button:hover {
@@ -92,7 +93,7 @@ article {
 }
 
 .paragraph a {
-  color: rgb(50, 104, 145);;
+  color: rgb(50, 104, 145);
   text-decoration: underline rgb(50, 104, 145);
 }
 
@@ -105,7 +106,8 @@ h2 .author:hover {
   text-decoration: none;
 }
 
-.social a {
+.social a,
+.social2 a {
   color: black;
   font-size: 12px;
   background-color: rgb(238, 238, 238);
@@ -158,11 +160,10 @@ iframe {
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 20px;
-
 }
 
 .promo a {
-  color: rgb(50, 104, 145) ;
+  color: rgb(50, 104, 145);
   font-weight: 700;
   text-decoration: none;
   line-height: 24px;
@@ -181,7 +182,7 @@ h3 {
   margin: 10px 0;
 }
 
-  /* Explanation Images */
+/* Explanation Images */
 
 .row-captions {
   display: flex;
@@ -224,7 +225,7 @@ h3 {
   font-weight: 700;
   padding-right: 5px;
   font-size: 14px;
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 section hr {
@@ -238,4 +239,100 @@ section hr {
 
 .article_sec {
   margin-top: 40px;
+}
+
+.video-emb {
+  margin: 20px auto;
+}
+
+.img-bottom img {
+  max-width: 720px;
+  min-width: 600px;
+  height: auto;
+}
+
+.img-bottom {
+  margin: 20px auto;
+  max-width: 720px;
+}
+
+.secondary-caption {
+  font-size: 15px;
+  color: rgb(102, 102, 102);
+  font-family: nyt-imperial, georgia, arial;
+  line-height: 20px;
+}
+
+.secondary-caption span {
+  font-size: 12px;
+  color: rgb(136, 136, 136);
+}
+
+.article_bottom {
+  width: 600px;
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+  font-family: nyt-franklin, georgia, arial;
+  margin: 15px 0;
+  line-height: 16px;
+}
+
+.article_bottom a {
+  text-decoration: underline;
+  color: rgb(102, 102, 102);
+}
+
+.article_bottom a:hover {
+  text-decoration: none;
+}
+
+.article_bottom_flex {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article_bottom_flex button {
+  width: 330px;
+}
+
+/* GRID */
+
+.footer-grid {
+  width: 1291px;
+  margin: 20px auto;
+  height: 1061px;
+  display: grid;
+  grid-template-columns: repeat(3 1fr) 318px;
+  grid-template-rows: repeat(5 auto);
+  border: 1px solid salmon;
+}
+
+.footer-grid > * {
+  border: 1px solid salmon;
+}
+
+.one {
+  grid-area: 1 / 1 / span 1 / span 3;
+  height: 40px;
+}
+
+.two {
+  grid-area: 1 / 4 / span 1 / span 1;
+}
+
+.three {
+  grid-area: 2 / 1 / span 1 / span 1;
+  width: 273px;
+  height: 291px;
+}
+
+.four {
+  grid-area: 2 / 4 / span 4 / span 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.three img {
+  width: 272px;
 }
