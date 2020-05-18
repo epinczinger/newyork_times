@@ -343,7 +343,7 @@ section hr {
 .bottom-new-container div img {
   height: 146px;
   width: auto;
-  margin: 0px 10px;
+  margin: 0 10px;
 }
 
 .subtitle {
@@ -354,13 +354,11 @@ section hr {
 
 .bottom-new-container span {
   padding: 0 10px;
- 
 }
 
 .bottom-new-container a {
   color: black;
   font-size: 18px;
-
 }
 
 .aside-container a:first-child {
@@ -386,7 +384,6 @@ h4 {
   float: left;
   width: 100%;
   display: table;
-
 }
 
 .editor-pick {
