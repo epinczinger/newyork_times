@@ -217,7 +217,7 @@ h3 {
   padding-left: 10px;
 }
 
-.row-captions figcaption {
+.row-captions span {
   line-height: 20px;
 }
 
@@ -343,21 +343,28 @@ section hr {
 .bottom-new-container div img {
   height: 146px;
   width: auto;
-
   margin: 0px 10px;
 }
 
-.bottom-new-container figcaption {
+.subtitle {
   padding: 0 10px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.bottom-new-container span {
+  padding: 0 10px;
+ 
 }
 
 .bottom-new-container a {
   color: black;
   font-size: 18px;
+
 }
 
 .aside-container a:first-child {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .bottom-new-container div span {
@@ -377,6 +384,9 @@ h4 {
 
 .img-news {
   float: left;
+  width: 100%;
+  display: table;
+
 }
 
 .editor-pick {
@@ -384,7 +394,7 @@ h4 {
   position: relative;
   right: 255px;
   bottom: 131px;
-  height: 320px;
+  height: 280px;
   border-bottom: none;
 }
 
@@ -421,7 +431,7 @@ footer img {
 li {
   color: black;
   line-height: 20px;
-  font-size: 13px
+  font-size: 13px;
 }
 
 .list-container a:hover {
@@ -456,9 +466,9 @@ footer hr {
 }
 
 .footer-bottom ul {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 .footer-bottom a {
