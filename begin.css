@@ -329,6 +329,7 @@ section hr {
   margin: 50px 10px;
   border-top: 1px solid black;
   width: 750px;
+  height: 580px;
   border-bottom: 1px solid black;
 }
 
@@ -355,6 +356,10 @@ section hr {
   font-size: 18px;
 }
 
+.aside-container a:first-child {
+    font-weight: 700;
+}
+
 .bottom-new-container div span {
   color: rgb(153, 153, 153);
   font-size: 10px;
@@ -368,4 +373,99 @@ h4 {
   margin-top: 10px;
   font-size: 16px;
   font-weight: 700;
+}
+
+.img-news {
+  float: left;
+}
+
+.editor-pick {
+  margin: 0 auto;
+  position: relative;
+  right: 255px;
+  bottom: 131px;
+  height: 320px;
+  border-bottom: none;
+}
+
+footer {
+  margin: 0 auto;
+  width: 1200px;
+  border-top: 5px double lightgray;
+}
+
+footer img {
+  width: 184px;
+  margin-top: 10px;
+}
+
+.footer-head a {
+  float: right;
+  margin-top: 20px;
+  color: rgb(86, 123, 149);
+  font-size: 11px;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-container li:first-child {
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.list-container a,
+li {
+  color: black;
+  line-height: 20px;
+  font-size: 13px
+}
+
+.list-container a:hover {
+  text-decoration: underline;
+}
+
+.list-container ul:last-child {
+  border-left: 1px solid lightgray;
+  padding-left: 20px;
+  font-size: 11px;
+}
+
+.bold {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.space {
+  margin-top: 20px;
+}
+
+footer hr {
+  width: 100%;
+  border: 0.5px solid lightgray;
+}
+
+.footer-bottom {
+  border-top: 1px solid lightgray;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.footer-bottom ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.footer-bottom a {
+  color: rgb(102, 102, 102);
+  font-size: 11px;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
 }
