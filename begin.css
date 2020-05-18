@@ -296,43 +296,76 @@ section hr {
   width: 330px;
 }
 
-/* GRID */
+/* ASIDE */
 
-.footer-grid {
-  width: 1291px;
-  margin: 20px auto;
-  height: 1061px;
-  display: grid;
-  grid-template-columns: repeat(3 1fr) 318px;
-  grid-template-rows: repeat(5 auto);
-  border: 1px solid salmon;
+.bottom-news {
+  height: auto;
+  width: 1280px;
+  margin: 10px auto;
+  display: flex;
 }
 
-.footer-grid > * {
-  border: 1px solid salmon;
-}
-
-.one {
-  grid-area: 1 / 1 / span 1 / span 3;
-  height: 40px;
-}
-
-.two {
-  grid-area: 1 / 4 / span 1 / span 1;
-}
-
-.three {
-  grid-area: 2 / 1 / span 1 / span 1;
-  width: 273px;
-  height: 291px;
-}
-
-.four {
-  grid-area: 2 / 4 / span 4 / span 1;
+.aside-container {
+  border-top: 1px solid black;
   display: flex;
   flex-direction: column;
+  float: right;
+  height: 650px;
+  justify-content: space-between;
+  margin: 50px 10px;
+  width: 315px;
 }
 
-.three img {
-  width: 272px;
+.aside-container a {
+  padding: 15px 0;
+  color: black;
+  font-family: nyt-franklin, georgia, arial;
+  border-top: 1px solid lightgray;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.bottom-new-container {
+  margin: 50px 10px;
+  border-top: 1px solid black;
+  width: 750px;
+  border-bottom: 1px solid black;
+}
+
+.bottom-new-container div {
+  float: left;
+  display: inline-block;
+  margin-top: 20px;
+  width: 240px;
+}
+
+.bottom-new-container div img {
+  height: 146px;
+  width: auto;
+
+  margin: 0px 10px;
+}
+
+.bottom-new-container figcaption {
+  padding: 0 10px;
+}
+
+.bottom-new-container a {
+  color: black;
+  font-size: 18px;
+}
+
+.bottom-new-container div span {
+  color: rgb(153, 153, 153);
+  font-size: 10px;
+}
+
+.right-author {
+  float: right;
+}
+
+h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
 }
