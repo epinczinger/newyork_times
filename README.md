@@ -1,63 +1,39 @@
 # Project Name
 
-> One paragraph statement about the project.
+> The aim of this project was to copy [this](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) website applying the following concepts; Embedding images, Working with forms (buttons in this case), Floats and positioning and the box model.   
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+HTML, CSS.
+
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+[Live Demo Link](https://raw.githack.com/epinczinger/newyork_times/main_page/begin.html)
 
 
 ## Authors
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@wrakc](https://github.com/wrack)
+- Twitter: [@carlosveig](https://twitter.com/carlosveig)
+- Linkedin: [linkedin](https://linkedin.com/chveiga)
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@epinczinger](https://github.com/epinczinger)
+- Twitter: [@epinczinger](https://twitter.com/epinczinger)
+- Linkedin: [linkedin](https://linkedin.com/epinczinger)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/epinczinger/newyork_times/issues).
 
 ## Show your support
 
@@ -65,10 +41,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Thanks Microverse for the opportunity. 
+Thanks to the raggydolls and the minskins.
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project has no license.
