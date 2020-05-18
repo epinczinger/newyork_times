@@ -2,8 +2,7 @@
 
 @font-face {
   font-family: "nytfranklinheadline";
-  src: url("franklin-normal-900-webfont.woff2") format("woff2"),
-    url("franklin-normal-900-webfont.woff") format("woff");
+  src: url("franklin-normal-900-webfont.woff2") format("woff2"), url("franklin-normal-900-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
