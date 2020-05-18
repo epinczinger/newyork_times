@@ -32,8 +32,7 @@ nav {
 
 nav a {
   color: black;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-weight: 700;
+  font-family: nytfranklinbold, helvetica, arial, sans-serif;
   font-size: 14px;
   padding: 0 10px;
 }
@@ -50,7 +49,7 @@ button {
   border-radius: 5px;
   border: 1px solid;
   height: 32px;
-  font-weight: 700;
+  font-family: nytfranklinbold, helvetica, Arial, sans-serif;
 }
 
 button:hover {
@@ -74,7 +73,7 @@ article {
   padding-right: 120px;
   font-size: 15px;
   color: rgb(102, 102, 102);
-  font-family: nyt-imperial, georgia, arial;
+  font-family: nyt-imperial, georgia, arial, sans-serif;
   line-height: 20px;
 }
 
@@ -130,6 +129,51 @@ h2 .author:hover {
   align-items: center;
 }
 
+.promo a {
+  color: rgb(50, 104, 145);
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 24px;
+}
+
+.article_bottom a {
+  text-decoration: underline;
+  color: rgb(102, 102, 102);
+}
+
+.footer-bottom a {
+  color: rgb(102, 102, 102);
+  font-size: 11px;
+}
+
+.list-container a,
+li {
+  color: black;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.aside-container a {
+  padding: 15px 0;
+  color: black;
+  font-family: nytfranklinlight, georgia, arial, sans-serif;
+  border-top: 1px solid lightgray;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.bottom-new-container a {
+  color: black;
+  font-size: 18px;
+}
+
+.footer-head a {
+  float: right;
+  margin-top: 20px;
+  color: rgb(86, 123, 149);
+  font-size: 11px;
+}
+
 .social a:hover {
   background-color: white;
   border: 1px solid rgb(238, 238, 238);
@@ -139,10 +183,15 @@ h2 .author:hover {
   background-color: white;
 }
 
+.explanation-images p {
+  margin: 10px 0;
+  color: rgb(102, 102, 102);
+}
+
 .paragraph div p {
   font-size: 20px;
   line-height: 30px;
-  font-family: nyt-imperial, georgia, "Times New Roman";
+  font-family: nytfranklinlight, georgia, "Times New Roman", sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -160,13 +209,6 @@ iframe {
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 20px;
-}
-
-.promo a {
-  color: rgb(50, 104, 145);
-  font-weight: 700;
-  text-decoration: none;
-  line-height: 24px;
 }
 
 hr {
@@ -193,14 +235,20 @@ h3 {
   margin: 20px auto;
 }
 
+h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .explanation-images h4 {
   font-size: 20px;
   font-weight: 700;
 }
 
-.explanation-images p {
-  margin: 10px 0;
-  color: rgb(102, 102, 102);
+footer img {
+  width: 184px;
+  margin-top: 10px;
 }
 
 .explanation-images img {
@@ -211,6 +259,13 @@ h3 {
   width: 25%;
   padding-right: 15px;
   padding-top: 5px;
+}
+
+.bottom-new-container div {
+  float: left;
+  display: inline-block;
+  margin-top: 20px;
+  width: 240px;
 }
 
 .row-captions div:last-child {
@@ -225,7 +280,7 @@ h3 {
   font-weight: 700;
   padding-right: 5px;
   font-size: 14px;
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-family: nytfranklinlight, arial, helvetica, sans-serif;
 }
 
 section hr {
@@ -259,7 +314,7 @@ section hr {
 .secondary-caption {
   font-size: 15px;
   color: rgb(102, 102, 102);
-  font-family: nyt-imperial, georgia, arial;
+  font-family: nyt-imperial, georgia, arial, sans-serif;
   line-height: 20px;
 }
 
@@ -272,14 +327,9 @@ section hr {
   width: 600px;
   font-size: 12px;
   color: rgb(102, 102, 102);
-  font-family: nyt-franklin, georgia, arial;
+  font-family: nytfranklinlight, georgia, arial, sans-serif;
   margin: 15px 0;
   line-height: 16px;
-}
-
-.article_bottom a {
-  text-decoration: underline;
-  color: rgb(102, 102, 102);
 }
 
 .article_bottom a:hover {
@@ -316,28 +366,12 @@ section hr {
   width: 315px;
 }
 
-.aside-container a {
-  padding: 15px 0;
-  color: black;
-  font-family: nyt-franklin, georgia, arial;
-  border-top: 1px solid lightgray;
-  font-size: 16px;
-  line-height: 22px;
-}
-
 .bottom-new-container {
   margin: 50px 10px;
   border-top: 1px solid black;
   width: 750px;
   height: 580px;
   border-bottom: 1px solid black;
-}
-
-.bottom-new-container div {
-  float: left;
-  display: inline-block;
-  margin-top: 20px;
-  width: 240px;
 }
 
 .bottom-new-container div img {
@@ -356,9 +390,8 @@ section hr {
   padding: 0 10px;
 }
 
-.bottom-new-container a {
-  color: black;
-  font-size: 18px;
+.footer-bottom a:hover {
+  text-decoration: underline;
 }
 
 .aside-container a:first-child {
@@ -372,12 +405,6 @@ section hr {
 
 .right-author {
   float: right;
-}
-
-h4 {
-  margin-top: 10px;
-  font-size: 16px;
-  font-weight: 700;
 }
 
 .img-news {
@@ -401,18 +428,6 @@ footer {
   border-top: 5px double lightgray;
 }
 
-footer img {
-  width: 184px;
-  margin-top: 10px;
-}
-
-.footer-head a {
-  float: right;
-  margin-top: 20px;
-  color: rgb(86, 123, 149);
-  font-size: 11px;
-}
-
 .list-container {
   display: flex;
   justify-content: space-around;
@@ -424,15 +439,14 @@ footer img {
   text-transform: uppercase;
 }
 
-.list-container a,
-li {
-  color: black;
-  line-height: 20px;
-  font-size: 13px;
-}
-
 .list-container a:hover {
   text-decoration: underline;
+}
+
+.footer-bottom ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 .list-container ul:last-child {
@@ -460,19 +474,4 @@ footer hr {
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 50px;
-}
-
-.footer-bottom ul {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-}
-
-.footer-bottom a {
-  color: rgb(102, 102, 102);
-  font-size: 11px;
-}
-
-.footer-bottom a:hover {
-  text-decoration: underline;
 }
