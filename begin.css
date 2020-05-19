@@ -469,6 +469,11 @@ footer hr {
   border: 0.5px solid lightgray;
 }
 
+.footer-head img {
+  position: relative;
+  right: 720px;
+}
+
 .footer-bottom {
   border-top: 1px solid lightgray;
   margin-top: 10px;
