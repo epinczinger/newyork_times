@@ -175,6 +175,11 @@ li {
   font-size: 11px;
 }
 
+.footer-bar a {
+  color: black;
+  font-size: 12px;
+}
+
 .social a:hover {
   background-color: white;
   border: 1px solid rgb(238, 238, 238);
@@ -261,7 +266,6 @@ footer img {
   font-size: 12px;
   padding-right: 15px;
   font-family: nytfranklinbold, serif, sans-serif;
-
 }
 
 section hr {
@@ -464,18 +468,13 @@ footer hr {
 
 .footer-bar {
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   height: 40px;
   width: 100%;
   border-top: 1px solid black;
   text-align: center;
   background-color: white;
   padding-top: 10px;
-}
-
-.footer-bar a {
-  color: black;
-  font-size: 12px;
 }
 
 .right-footer-bar {
@@ -494,11 +493,10 @@ footer hr {
   grid-template-rows: 136px 150px 136px 150px;
   font-family: nytfranklinlight, serif, sans-serif;
   gap: 5px;
-
 }
 
 .one {
-  grid-area: 2 / 1 ;
+  grid-area: 2 / 1;
 }
 
 .two {
@@ -518,7 +516,6 @@ footer hr {
 .five {
   grid-area: 4 / 1;
   padding-right: 5px;
-
 }
 
 .six {
