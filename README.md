@@ -13,7 +13,7 @@ HTML, CSS.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/epinczinger/newyork_times/main_page/begin.html)
+[Live Demo Link](https://raw.githack.com/epinczinger/newyork_times/main_page/index.html)
 
 
 ## Authors
@@ -42,7 +42,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Thanks Microverse for the opportunity. 
+Thanks Microverse for the opportunity.
 Thanks to the raggydolls and the minskins.
 
 ## 📝 License
