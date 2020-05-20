@@ -249,11 +249,6 @@ footer img {
   margin-top: 10px;
 }
 
-.inflation-grid img {
-  width: 945px;
-}
-
-
 .bottom-new-container div {
   float: left;
   display: inline-block;
@@ -493,9 +488,10 @@ footer hr {
 .grid-image {
   display: grid;
   background-image: url(images/inflation-grid.png);
-  background-size: cover;
+  background-size: 945px 576px;
+  background-repeat: no-repeat;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1.15fr 0.85fr 1.2fr 0.8fr ;
+  grid-template-rows: 136px 150px 136px 150px;
   font-family: nytfranklinlight, serif, sans-serif;
   gap: 5px;
 
