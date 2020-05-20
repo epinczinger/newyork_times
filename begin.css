@@ -114,6 +114,7 @@ h2 .author:hover {
   margin-left: 10px;
   padding: 7px;
   border-radius: 50%;
+  border: 1px solid rgb(238, 238, 238);
 }
 
 .fb {
@@ -181,9 +182,10 @@ li {
 
 .social a:nth-last-child(-n + 2) {
   background-color: white;
+  border: none;
 }
 
-.explanation-images p {
+.inflation-grid p {
   margin: 10px 0;
   color: rgb(102, 102, 102);
 }
@@ -224,13 +226,9 @@ h3 {
   margin: 10px 0;
 }
 
-/* Explanation Images */
+/* Inflation GRID */
 
-.row-captions {
-  display: flex;
-}
-
-.explanation-images {
+.inflation-grid {
   width: 945px;
   margin: 20px auto;
 }
@@ -241,7 +239,7 @@ h4 {
   font-weight: 700;
 }
 
-.explanation-images h4 {
+.inflation-grid h4 {
   font-size: 20px;
   font-weight: 700;
 }
@@ -251,15 +249,10 @@ footer img {
   margin-top: 10px;
 }
 
-.explanation-images img {
+.inflation-grid img {
   width: 945px;
 }
 
-.row-captions div {
-  width: 25%;
-  padding-right: 15px;
-  padding-top: 5px;
-}
 
 .bottom-new-container div {
   float: left;
@@ -268,19 +261,11 @@ footer img {
   width: 240px;
 }
 
-.row-captions div:last-child {
-  padding-left: 10px;
-}
-
-.row-captions span {
-  line-height: 20px;
-}
-
-.row-captions b {
+.grid-image b {
   font-weight: 700;
-  padding-right: 5px;
-  font-size: 14px;
-  font-family: nytfranklinlight, arial, helvetica, sans-serif;
+  font-size: 12px;
+  padding-right: 15px;
+  font-family: helvetica, sans-serif;
 }
 
 section hr {
@@ -502,4 +487,51 @@ footer hr {
   font-weight: 700;
   word-spacing: 20px;
   position: absolute;
+}
+
+.grid-image {
+  display: grid;
+  background-image: url(assets/images/inflation-grid.png);
+  background-size: cover;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1.15fr 0.85fr 1.2fr 0.8fr ;
+  gap: 5px;
+  
+}
+
+.one {
+  grid-area: 2 / 1 ;
+}
+
+.two {
+  grid-area: 2 / 2;
+  padding-right: 5px;
+}
+
+.three {
+  grid-area: 2 / 3;
+}
+
+.four {
+  padding-left: 5px;
+  grid-area: 2 / 4;
+}
+
+.five {
+  grid-area: 4 / 1;
+  padding-right: 5px;
+
+}
+
+.six {
+  grid-area: 4 / 2;
+}
+
+.seven {
+  grid-area: 4 / 3;
+}
+
+.eight {
+  grid-area: 4 / 4;
+  padding-left: 5px;
 }
