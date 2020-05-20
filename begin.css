@@ -483,8 +483,23 @@ footer hr {
 
 .footer-bar {
   position: fixed;
-  height: 500px;
+  bottom: 0px;
+  height: 40px;
   width: 100%;
-  border-top: 2px solid black;
-  background-color: red;
+  border-top: 1px solid black;
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+}
+
+.footer-bar a {
+  color: black;
+  font-size: 12px;
+}
+
+.right-footer-bar {
+  margin-left: 200px;
+  font-weight: 700;
+  word-spacing: 20px;
+  position: absolute;
 }
