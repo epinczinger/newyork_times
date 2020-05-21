@@ -1,0 +1,532 @@
+/* General */
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  top: 75px;
+  margin-left: 33%;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+}
+
+.fix-nav {
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 1;
+}
+
+nav a {
+  color: black;
+  font-family: nytfranklinbold, helvetica, arial, sans-serif;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+nav img {
+  height: 36px;
+  position: relative;
+  top: 5px;
+}
+
+button {
+  color: white;
+  background-color: rgb(86, 123, 149);
+  border-radius: 5px;
+  border: 1px solid;
+  height: 32px;
+  font-family: nytfranklinbold, helvetica, Arial, sans-serif;
+}
+
+button:hover {
+  background-color: rgb(50, 104, 145);
+}
+
+/* article */
+article {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.main-img {
+  max-width: 945px;
+}
+
+.main-caption {
+  width: 945px;
+  padding-right: 120px;
+  font-size: 15px;
+  color: rgb(102, 102, 102);
+  font-family: nyt-imperial, georgia, arial, sans-serif;
+  line-height: 20px;
+}
+
+.main-caption span {
+  font-size: 12px;
+  color: rgb(136, 136, 136);
+}
+
+.paragraph {
+  width: 600px;
+}
+
+.paragraph h2 {
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.paragraph a {
+  color: rgb(50, 104, 145);
+  text-decoration: underline rgb(50, 104, 145);
+}
+
+h2 .author {
+  color: black;
+  text-decoration: underline rgb(204, 204, 204);
+}
+
+h2 .author:hover {
+  text-decoration: none;
+}
+
+.social a,
+.social2 a {
+  color: black;
+  font-size: 12px;
+  background-color: rgb(238, 238, 238);
+  height: 15%;
+  margin-left: 10px;
+  padding: 7px;
+  border-radius: 50%;
+  border: 1px solid rgb(238, 238, 238);
+}
+
+.fb {
+  padding: 7px 10px !important;
+}
+
+.social {
+  display: flex;
+  width: 600px;
+  margin-top: 20px;
+  justify-content: space-between;
+  height: 34px;
+  align-items: center;
+}
+
+.promo a {
+  color: rgb(50, 104, 145);
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 24px;
+}
+
+.article_bottom a {
+  text-decoration: underline;
+  color: rgb(102, 102, 102);
+}
+
+.footer-bottom a {
+  color: rgb(102, 102, 102);
+  font-size: 11px;
+}
+
+.list-container a,
+li {
+  color: black;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.aside-container a {
+  padding: 15px 0;
+  color: black;
+  font-family: nytfranklinlight, georgia, arial, sans-serif;
+  border-top: 1px solid lightgray;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.bottom-new-container a {
+  color: black;
+  font-size: 18px;
+}
+
+.footer-head a {
+  float: right;
+  margin-top: 20px;
+  color: rgb(86, 123, 149);
+  font-size: 11px;
+}
+
+.footer-bar a {
+  color: black;
+  font-size: 12px;
+}
+
+.social a:hover {
+  background-color: white;
+  border: 1px solid rgb(238, 238, 238);
+}
+
+.social a:nth-last-child(-n + 2) {
+  background-color: white;
+  border: none;
+}
+
+.inflation-grid p {
+  margin: 10px 0;
+  color: rgb(102, 102, 102);
+}
+
+.paragraph div p {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: nytfranklinlight, georgia, "Times New Roman", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+iframe {
+  padding-top: 20px;
+}
+
+.promo {
+  text-align: center;
+}
+
+.promo span {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+hr {
+  width: 12%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0.5px solid rgb(204, 204, 204);
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+/* Inflation GRID */
+
+.inflation-grid {
+  width: 945px;
+  margin: 20px auto;
+}
+
+h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.inflation-grid h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+footer img {
+  width: 184px;
+  margin-top: 10px;
+}
+
+.bottom-new-container div {
+  float: left;
+  display: inline-block;
+  margin-top: 20px;
+  width: 240px;
+}
+
+.grid-image b {
+  font-weight: 700;
+  font-size: 12px;
+  padding-right: 15px;
+  font-family: nytfranklinbold, serif, sans-serif;
+}
+
+section hr {
+  position: relative;
+  right: 435px;
+  width: 8%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 0.5px solid black;
+}
+
+.article_sec {
+  margin-top: 40px;
+}
+
+.video-emb {
+  margin: 20px auto;
+}
+
+.img-bottom img {
+  max-width: 720px;
+  min-width: 600px;
+  height: auto;
+}
+
+.img-bottom {
+  margin: 20px auto;
+  max-width: 720px;
+}
+
+.secondary-caption {
+  font-size: 15px;
+  color: rgb(102, 102, 102);
+  font-family: nyt-imperial, georgia, arial, sans-serif;
+  line-height: 20px;
+}
+
+.secondary-caption span {
+  font-size: 12px;
+  color: rgb(136, 136, 136);
+}
+
+.article_bottom {
+  width: 600px;
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+  font-family: nytfranklinlight, georgia, arial, sans-serif;
+  margin: 15px 0;
+  line-height: 16px;
+}
+
+.article_bottom a:hover {
+  text-decoration: none;
+}
+
+.article_bottom_flex {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article_bottom_flex button {
+  width: 330px;
+}
+
+/* ASIDE */
+
+.bottom-news {
+  height: auto;
+  width: 1280px;
+  margin: 10px auto;
+  display: flex;
+}
+
+.aside-container {
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  height: 650px;
+  justify-content: space-between;
+  margin: 50px 10px;
+  width: 315px;
+}
+
+.bottom-new-container {
+  margin: 50px 10px;
+  border-top: 1px solid black;
+  width: 750px;
+  height: 580px;
+  border-bottom: 1px solid black;
+}
+
+.footer-head img {
+  position: relative;
+  right: 720px;
+}
+
+.bottom-new-container div img {
+  height: 146px;
+  width: auto;
+  margin: 0 10px;
+}
+
+.subtitle {
+  padding: 0 10px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.bottom-new-container span {
+  padding: 0 10px;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.aside-container a:first-child {
+  font-weight: 700;
+}
+
+.bottom-new-container div span {
+  color: rgb(153, 153, 153);
+  font-size: 10px;
+}
+
+.right-author {
+  float: right;
+}
+
+.img-news {
+  float: left;
+  width: 100%;
+  display: table;
+}
+
+.editor-pick {
+  margin: 0 auto;
+  position: relative;
+  right: 255px;
+  bottom: 131px;
+  height: 280px;
+  border-bottom: none;
+}
+
+footer {
+  margin: 0 auto;
+  width: 1200px;
+  border-top: 5px double lightgray;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-container li:first-child {
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.list-container a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.list-container ul:last-child {
+  border-left: 1px solid lightgray;
+  padding-left: 20px;
+  font-size: 11px;
+}
+
+.bold {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.space {
+  margin-top: 20px;
+}
+
+footer hr {
+  width: 100%;
+  border: 0.5px solid lightgray;
+}
+
+.footer-bottom {
+  border-top: 1px solid lightgray;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.footer-bar {
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  border-top: 1px solid black;
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+}
+
+.right-footer-bar {
+  margin-left: 200px;
+  font-weight: 700;
+  word-spacing: 20px;
+  position: absolute;
+}
+
+.grid-image {
+  display: grid;
+  background-image: url(images/inflation-grid.png);
+  background-size: 945px 576px;
+  background-repeat: no-repeat;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 136px 150px 136px 150px;
+  font-family: nytfranklinlight, serif, sans-serif;
+  gap: 5px;
+}
+
+.one {
+  grid-area: 2 / 1;
+}
+
+.two {
+  grid-area: 2 / 2;
+  padding-right: 5px;
+}
+
+.three {
+  grid-area: 2 / 3;
+}
+
+.four {
+  padding-left: 5px;
+  grid-area: 2 / 4;
+}
+
+.five {
+  grid-area: 4 / 1;
+  padding-right: 5px;
+}
+
+.six {
+  grid-area: 4 / 2;
+}
+
+.seven {
+  grid-area: 4 / 3;
+}
+
+.eight {
+  grid-area: 4 / 4;
+  padding-left: 5px;
+}
